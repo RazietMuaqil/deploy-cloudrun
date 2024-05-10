@@ -18,7 +18,7 @@ const app = express();
 
 app.get('/', (req, res) => {
   console.log(`${package.name} received a request.`);
-  res.send(`Congratulations, you successfully deployed a container image to Cloud Run!`);
+  res.send(`Hallo, ini dari branch Main`);
 });
 
 const port = process.env.PORT || 8080;
